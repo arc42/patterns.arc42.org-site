@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="article-wrapper">
+    <article>
+        <section class="post-content">
+            {{ content }}
+        </section>
+    </article>
+</div>
+
+{% if site.show-subtle-ads %}
+<section class="subtle-ads">
+  {% include subtle-ads.html %}
+</section>
+{% endif %}
+
+{% if site.disqus %}
+<section class="comments">
+    {% include disqus.html %}
+</section>
+{% endif %}
