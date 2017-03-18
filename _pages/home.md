@@ -40,7 +40,7 @@ These patterns are tagged by [**{{ site.tags.size }} keywords**](/keywords) that
   <ul class="tag-box inline">
   {% for tag in tag_words %}{% if tag == "cpsa-f" %}
        <li><a href="{{ site.baseurl }}/keywords/#{{tag}}"><font color="#dd354b"><b>{{ tag }}</b>
-       <span>{{ site.tags[tag] | size }}</span></font></a>
+       <span>{{ site.tags[tag] | size }}</span></font></a></li>
     {% else %}
     <li><a href="{{ site.baseurl }}/keywords">{{ tag }}
     <span>{{ site.tags[tag] | size }}</span></a></li>
