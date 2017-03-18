@@ -5,6 +5,8 @@ permalink: /stability/
 order: 16
 ---
 
+Stability, availability
+
 <div id="search-results">
     <hr id="first-hr" class="with-no-margin"/>
 
