@@ -38,12 +38,20 @@ These patterns are tagged by [**{{ site.tags.size }} keywords**](/keywords) that
 {% assign tag_words = site_tags |  split:',' | sort %}
 <div id="tags">
   <ul class="tag-box inline">
-  {% for tag in tag_words %}
+  {% for tag in tag_words %}{% if tag == "cpsa-f" %}
+       <li><a href="{{ site.baseurl }}/keywords/#{{tag}}"><font color="#dd354b"><b>{{ tag }}</b>
+       <span>{{ site.tags[tag] | size }}</span></font></a>
+    {% else %}
     <li><a href="{{ site.baseurl }}/keywords">{{ tag }}
     <span>{{ site.tags[tag] | size }}</span></a></li>
+    {% endif %}
   {% endfor %}
   </ul>
 </div>
+
+One of this keywords ([<font color="#dd354b"><b>cpsa-f</b></font>](/keywords/#cpsa-f))
+stands out - it denotes those patterns that are mentioned in
+the [iSAQB](http://isaqb.org) software architecture foundation curriculum.
 
 ## Literature disagreement
 
