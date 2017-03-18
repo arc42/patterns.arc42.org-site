@@ -51,7 +51,8 @@ These patterns are tagged by [**{{ site.tags.size }} keywords**](/keywords) that
 
 One of this keywords ([<font color="#dd354b"><b>cpsa-f</b></font>](/keywords/#cpsa-f))
 stands out - it denotes those patterns that are mentioned in
-the [iSAQB](http://isaqb.org) software architecture foundation curriculum.
+the [iSAQB](http://isaqb.org) software architecture foundation curriculum. Their knowledge might
+be required in [CPSA-F](http://www.isaqb.org/certifications/foundation-level/) examinations.
 
 ## Literature disagreement
 

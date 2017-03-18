@@ -12,7 +12,7 @@ of programming language or -technology.
     <hr id="first-hr" class="with-no-margin"/>
 
 
-    {% assign selected_posts = (site.posts | where: "category", "overall") | reverse %}
+    {% assign selected_posts = (site.posts | where: "category", "design") | reverse %}
     {% for post in selected_posts  %}
     <div class="article-wrapper">
         <article>

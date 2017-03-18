@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blackboard
-tags: dataflow
+tags: dataflow cpsa-f
 category: dataflow
 permalink: /patterns/blackboard/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pipes and Filter
-tags: dataflow sequential
+tags: dataflow sequential cpsa-f
 category: dataflow
 permalink: /patterns/pipes-filter/
 ---
