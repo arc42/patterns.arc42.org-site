@@ -6,4 +6,4 @@ category: overall
 permalink: /patterns/master-slave/
 ---
 
-## Master-Slave
+![](/images/patterns/master-slave.svg)

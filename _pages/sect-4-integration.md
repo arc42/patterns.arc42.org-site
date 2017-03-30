@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 5 - Integration Patterns
+title: 4 - Integration Patterns
 permalink: /integration/
 order: 15
 ---

@@ -6,6 +6,4 @@ category: dataflow
 permalink: /patterns/pipes-filter/
 ---
 
-## Pipes and Filter
-
-Layer...
+![](/images/patterns/pipes-and-filter.svg)

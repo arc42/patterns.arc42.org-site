@@ -2,7 +2,7 @@
 layout: page
 title: 8 - Workflow Patterns
 permalink: /workflow/
-order: 18
+order: 19
 ---
 
 Here you (some day...) find workflow patterns.

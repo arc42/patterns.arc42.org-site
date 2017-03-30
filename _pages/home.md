@@ -5,15 +5,15 @@ order: 0
 permalink: /home/
 ---
 
-{% assign nr_sec01_patterns = (site.posts | where: "category", "overall") | size %}
-{% assign nr_sec02_patterns = (site.posts | where: "category", "dataflow") | size %}
-{% assign nr_sec03_patterns = (site.posts | where: "category", "adaptive") | size %}
-{% assign nr_sec04_patterns = (site.posts | where: "category", "interactive") | size  %}
-{% assign nr_sec05_patterns = (site.posts | where: "category", "integration") | size %}
-{% assign nr_sec06_patterns = (site.posts | where: "category", "stability") | size %}
-{% assign nr_sec07_patterns = (site.posts | where: "category", "domain") | size %}
-{% assign nr_sec08_patterns = (site.posts | where: "category", "workflow") | size %}
-{% assign nr_sec10_patterns = (site.posts | where: "category", "design") | size %}
+{% assign nr_overall_patterns = (site.posts | where: "category", "overall") | size %}
+{% assign nr_dataflow_patterns = (site.posts | where: "category", "dataflow") | size %}
+{% assign nr_interactive_patterns = (site.posts | where: "category", "interactive") | size  %}
+{% assign nr_integration_patterns = (site.posts | where: "category", "integration") | size %}
+{% assign nr_adaptive_patterns = (site.posts | where: "category", "adaptive") | size %}
+{% assign nr_domain_patterns = (site.posts | where: "category", "domain") | size %}
+{% assign nr_stability_patterns = (site.posts | where: "category", "stability") | size %}
+{% assign nr_workflow_patterns = (site.posts | where: "category", "workflow") | size %}
+{% assign nr_design_patterns = (site.posts | where: "category", "design") | size %}
 
 ## Overview
 
@@ -21,15 +21,15 @@ Check out architecture patterns, organized by informal and intersecting **[categ
 (some patterns might belong to two or more categories, use the search button if in doubt...)
 
 
-1. [**Overall System Structure**](/overall/): {{ nr_sec01_patterns }} patterns, e.g. Layers, Tiers, Master/Slave, Client/Server, Onion-Style, Hexagonal-Architecture, Domain-Model, Transaction-Script, Virtual Machine,  etc.
-2. [**Data flow**](/dataflow/): {{ nr_sec02_patterns }} patterns, e.g. Pipes-and-Filter and its variants, Blackboard
-3. [**Adaptive Systems**](/adaptive/): {{ nr_sec03_patterns  }} patterns, e.g. PlugIn, Broker, MicroServices
-4. [**Interactive Systems**](/interactive/): {{ nr_sec04_patterns  }} patterns, e.g. Model-View-Controller, Model-View-ViewModel and their variants
-5. [**Integration Patterns**](/integration/): {{ nr_sec05_patterns }} patterns, e.g. Publish-Subscribe, Messaging, Remote-Procedure-Call, Hub-and-Spoke etc.
-6. [**Stability and Robustness Patterns**](/stability/): {{ nr_sec06_patterns }} patterns, e.g. Bulkhead, Timeout, Circuit-Breaker, Heartbeat, Handshake etc.
-7. [**Domain Patterns**](/domain/): {{ nr_sec07_patterns }} patterns, e.g. Open-Host-Service, Published-Language, Anticorruption-Layer, Separate-Ways
-8. [**Workflow Patterns**](/workflow/): TODO
-10. [**Design Patterns**](/design/): {{ nr_sec10_patterns  }} patterns, e.g. Proxy, Adapter, Facade, Registry, Command, Factory, Observer
+1. [**Overall System Structure**](/overall/): {{ nr_overall_patterns }} patterns, e.g. Layers, Tiers, Master/Slave, Client/Server, Onion-Style, Hexagonal-Architecture, Domain-Model, Transaction-Script, Virtual Machine,  etc.
+1. [**Data flow**](/dataflow/): {{ nr_dataflow_patterns }} patterns, e.g. Pipes-and-Filter and its variants, Blackboard
+1. [**Interactive Systems**](/interactive/): {{ nr_interactive_patterns  }} patterns, e.g. Model-View-Controller, Model-View-ViewModel and their variants
+1. [**Integration Patterns**](/integration/): {{ nr_integration_patterns }} patterns, e.g. Publish-Subscribe, Messaging, Remote-Procedure-Call, Hub-and-Spoke etc.
+1. [**Adaptive Systems**](/adaptive/): {{ nr_adaptive_patterns  }} patterns, e.g. PlugIn, Broker, MicroServices
+1. [**Domain Patterns**](/domain/): {{ nr_domain_patterns }} patterns, e.g. Open-Host-Service, Published-Language, Anticorruption-Layer, Separate-Ways
+1. [**Stability and Robustness Patterns**](/stability/): {{ nr_stability_patterns }} patterns, e.g. Bulkhead, Timeout, Circuit-Breaker, Heartbeat, Handshake etc.
+1. [**Workflow Patterns**](/workflow/): {{ nr_workflow_patterns }} patterns, TODO
+1. [**Design Patterns**](/design/): {{ nr_design_patterns  }} patterns, e.g. Proxy, Adapter, Facade, Registry, Command, Factory, Observer
 
 ## Keywords
 These patterns are tagged by [**{{ site.tags.size }} keywords**](/keywords) that will help you navigate:

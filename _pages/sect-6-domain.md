@@ -1,15 +1,15 @@
 ---
 layout: page
-title: 4 - Interactive Systems
-permalink: /interactive/
-order: 14
+title: 6 - Domain Patterns
+permalink: /domain/
+order: 17
 ---
 
 <div id="search-results">
     <hr id="first-hr" class="with-no-margin"/>
 
 
-    {% assign selected_posts = (site.posts | where: "category", "interactive") | reverse %}
+    {% assign selected_posts = (site.posts | where: "category", "domain") | reverse %}
     {% for post in selected_posts  %}
     <div class="article-wrapper">
         <article>

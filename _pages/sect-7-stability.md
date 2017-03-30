@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 6 - Stability Patterns
+title: 7 - Stability Patterns
 permalink: /stability/
-order: 16
+order: 18
 ---
 
 Stability, availability

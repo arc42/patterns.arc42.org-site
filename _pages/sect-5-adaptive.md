@@ -1,8 +1,8 @@
 ---
 layout: page
-title: 3 - Adaptive Systems
+title: 5 - Adaptive Systems
 permalink: /adaptive/
-order: 13
+order: 16
 ---
 
 <div id="search-results">

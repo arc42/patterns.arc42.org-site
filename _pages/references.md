@@ -39,6 +39,15 @@ Designing, Building, and Deploying Messaging Solutions. Addison-Wesley, 2003.
 
 Online: [https://msdn.microsoft.com/en-us/library/ee658117.aspx](https://msdn.microsoft.com/en-us/library/ee658117.aspx)
 
+#### Nygard, Michael: Release It
+
+Design and Deploy Production-Ready Software
+
+From the publisher:
+
+>In Release It!, Michael T. Nygard shows you how to design and architect your application for the harsh realities it will face. You’ll learn how to design your application for maximum uptime, performance, and return on investment.
+
+https://pragprog.com/book/mnee/release-it
 
 #### Scott Millett, Nick Tune: Patterns, Principles, and Practices of Domain-Driven Design.
 Wrox-Press, 2016.
