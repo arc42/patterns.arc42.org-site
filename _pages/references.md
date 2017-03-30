@@ -54,3 +54,7 @@ Wrox-Press, 2016.
 
 #### Vernon, Vaughn: Domain-Driven Design Distilled.
 Addison-Wesley 2016.
+
+#### Workflow Patterns
+
+van der Aalst, ter-Hofstede: [Workflow Patterns](http://www.workflowpatterns.com/), online: http://www.workflowpatterns.com/
