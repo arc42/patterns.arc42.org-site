@@ -3,7 +3,7 @@ layout: post
 title: Data Centric
 tags: dataflow cpsa-f  _TODO
 category: dataflow
-permalink: /patterns/pipes-filter/
+permalink: /patterns/data-centric/
 ---
 
 ![](/images/patterns/data-centric.svg)
