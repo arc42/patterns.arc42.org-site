@@ -1,3 +1,4 @@
-[submodule "subtle-ads"]
-	path = subtle-ads
-	url = https://github.com/arc42/subtle-ads.git
+
+[submodule "_includes/subtle-ads"]
+	path = _includes/subtle-ads
+	url = https://github.com/arc42/subtle-ads/
