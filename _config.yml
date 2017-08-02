@@ -96,4 +96,4 @@ sass:
   sass_dir: _sass
   style: :compressed # or :expanded
 
-exclude: [Gemfile, Gemfile.lock, LICENSE, README.md, originals, subtle-ads]
+exclude: [Gemfile, Gemfile.lock, LICENSE, README.md, originals]
