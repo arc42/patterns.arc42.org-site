@@ -1,3 +1,9 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+order: 25
+---
 
 ## You still have questions?
 
@@ -15,3 +21,7 @@ Please let us know - we're listening to you:
 
 
 This page was last built on {{ site.time | date: '%c' }}
+
+## Or just leave a comment...
+
+{% include disqus.html %}
