@@ -12,13 +12,17 @@ permalink: /home/
 {% assign nr_adaptive_patterns = (site.posts | where: "category", "adaptive") | size %}
 {% assign nr_domain_patterns = (site.posts | where: "category", "domain") | size %}
 {% assign nr_stability_patterns = (site.posts | where: "category", "stability") | size %}
+{% assign nr_resource_patterns = (site.posts | where: "category", "resource") | size %}
 {% assign nr_workflow_patterns = (site.posts | where: "category", "workflow") | size %}
 {% assign nr_design_patterns = (site.posts | where: "category", "design") | size %}
 
 ## Overview
 
 Check out architecture patterns, organized by informal and intersecting **[categories](/categories)**:
-(some patterns might belong to two or more categories, use the search button if in doubt...)
+(some patterns might belong to two or more categories, use the search button if in doubt...).
+
+All of these patterns have been extensively documented in (paper-based and online) **[references](/references/)**.
+
 
 
 1. [**Overall System Structure**](/overall/): {{ nr_overall_patterns }} patterns, e.g. Layers, Tiers, Master/Slave, Client/Server, Onion-Style, Hexagonal-Architecture, Domain-Model, Transaction-Script, Virtual Machine,  etc.
@@ -28,6 +32,7 @@ Check out architecture patterns, organized by informal and intersecting **[categ
 1. [**Adaptive Systems**](/adaptive/): {{ nr_adaptive_patterns  }} patterns, e.g. PlugIn, Broker, MicroServices
 1. [**Domain Patterns**](/domain/): {{ nr_domain_patterns }} patterns, e.g. Open-Host-Service, Published-Language, Anticorruption-Layer, Separate-Ways
 1. [**Stability and Robustness Patterns**](/stability/): {{ nr_stability_patterns }} patterns, e.g. Bulkhead, Timeout, Circuit-Breaker, Heartbeat, Handshake etc.
+1. [**Resource Management Patterns**](/resource-management/): {{ nr_resource_patterns }} patterns, TODO
 1. [**Workflow Patterns**](/workflow/): {{ nr_workflow_patterns }} patterns, TODO
 1. [**Design Patterns**](/design/): {{ nr_design_patterns  }} patterns, e.g. Proxy, Adapter, Facade, Registry, Command, Factory, Observer
 
@@ -54,10 +59,11 @@ stands out - it denotes those patterns that are mentioned in
 the [iSAQB](http://isaqb.org) software architecture foundation curriculum. Their knowledge might
 be required in [CPSA-F](http://www.isaqb.org/certifications/foundation-level/) examinations.
 
-## Literature disagreement
+## Style? Pattern? Category?
 
-All of these patterns have been extensively documented in (paper-based and online) [literature](/references/).
 The definition of styles or patterns heavily varies, depending on the original authors.
+
+Several patterns (e.g. MicroServices) fit several categories.
 
 
 ## <font color="#dd354b">We're offering architecture training!</font>

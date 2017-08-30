@@ -1,17 +1,17 @@
 ---
 layout: page
-title: 8 - Workflow Patterns
-permalink: /workflow/
+title: 8 - Resource Management Patterns
+permalink: /resource-management/
 order: 19
 ---
 
-Here you (some day...) find workflow patterns.
+Here you (some day...) find patterns for resource management.
 
 <div id="search-results">
     <hr id="first-hr" class="with-no-margin"/>
 
 
-    {% assign selected_posts = (site.posts | where: "category", "overall") | reverse %}
+    {% assign selected_posts = (site.posts | where: "category", "resource") | reverse %}
     {% for post in selected_posts  %}
     <div class="article-wrapper">
         <article>
