@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 2 - Dataflow
+title: 2 - Dataflow Architectures
 permalink: /dataflow/
 order: 12
 ---

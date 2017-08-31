@@ -2,10 +2,10 @@
 layout: page
 title: 10 - Design Patterns
 permalink: /design/
-order: 20
+order: 22
 ---
 
-Here you find generally applicable design patterns, which should be independend
+Here you find generally applicable _design patterns_, which should be independend
 of programming language or -technology.
 
 <div id="search-results">

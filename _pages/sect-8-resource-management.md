@@ -5,7 +5,7 @@ permalink: /resource-management/
 order: 19
 ---
 
-Here you (some day...) find patterns for resource management.
+Here you (some nice day...) find patterns for resource management.
 
 <div id="search-results">
     <hr id="first-hr" class="with-no-margin"/>
