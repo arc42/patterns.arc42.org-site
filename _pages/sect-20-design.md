@@ -1,17 +1,18 @@
 ---
 layout: page
-title: 9 - Workflow Patterns
-permalink: /workflow/
-order: 21
+title: 12 - Design Patterns
+permalink: /design/
+order: 27
 ---
 
-Here you (some day...) find workflow patterns.
+Here you find generally applicable _design patterns_, which should be independend
+of programming language or -technology.
 
 <div id="search-results">
     <hr id="first-hr" class="with-no-margin"/>
 
 
-    {% assign selected_posts = (site.posts | where: "category", "workflow") | reverse %}
+    {% assign selected_posts = (site.posts | where: "category", "design") | reverse %}
     {% for post in selected_posts  %}
     <div class="article-wrapper">
         <article>

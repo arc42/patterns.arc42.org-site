@@ -1,17 +1,17 @@
 ---
 layout: page
-title: 9 - Workflow Patterns
-permalink: /workflow/
-order: 21
+title: 10 - Security Patterns
+permalink: /security/
+order: 23
 ---
 
-Here you (some day...) find workflow patterns.
+Here you (some day...) find security patterns.
 
 <div id="search-results">
     <hr id="first-hr" class="with-no-margin"/>
 
 
-    {% assign selected_posts = (site.posts | where: "category", "workflow") | reverse %}
+    {% assign selected_posts = (site.posts | where: "category", "security") | reverse %}
     {% for post in selected_posts  %}
     <div class="article-wrapper">
         <article>

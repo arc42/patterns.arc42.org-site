@@ -1,18 +1,17 @@
 ---
 layout: page
-title: 10 - Design Patterns
-permalink: /design/
-order: 22
+title: 11 - Microservice Patterns
+permalink: /microservice/
+order: 25
 ---
 
-Here you find generally applicable _design patterns_, which should be independend
-of programming language or -technology.
+Here you (some day...) find microservice patterns.
 
 <div id="search-results">
     <hr id="first-hr" class="with-no-margin"/>
 
 
-    {% assign selected_posts = (site.posts | where: "category", "design") | reverse %}
+    {% assign selected_posts = (site.posts | where: "category", "microservice") | reverse %}
     {% for post in selected_posts  %}
     <div class="article-wrapper">
         <article>

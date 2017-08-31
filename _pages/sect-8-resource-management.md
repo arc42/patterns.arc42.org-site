@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 8 - Resource Management Patterns
+title: 8 - Resource Management
 permalink: /resource-management/
 order: 19
 ---

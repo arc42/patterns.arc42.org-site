@@ -11,7 +11,7 @@ notice that there are different and sometimes contradictory proposals
 on how to _organize_ these patterns. Pragmatically I added patterns to
 all potential categories
 
-I reused some category proposals from [books]() and finally came up
+I reused some category proposals from [books](/references) and finally came up
 with the following results:
 
 1. [**Overall System Structure**](/overall/): Patterns to structure
@@ -34,13 +34,14 @@ Open-Host-Service, Published-Language, Anticorruption-Layer, Separate-Ways
 1. [**Stability and Robustness Patterns**](/stability/):
 Bulkhead, Timeout, Circuit-Breaker, Heartbeat, Handshake etc.
 
-1. [**Resource Management Patterns**](/resource_management/): TODO
-
-1. **Security Patterns**: TODO
-
-1. **Microservice Patterns**: TODO
+1. [**Resource Management Patterns**](/resource_management/): Patterns
+for resource acquisition (lookup, lazy/eager or partial acquisition), handling resource lifecycle (caching, pooling, coordination) and others.
 
 1. [**Workflow Patterns**](/workflow/): TODO
+
+1. [**Security Patterns**](/security): TODO
+
+1. [**Microservice Patterns**](/microservices): TODO
 
 1. [**Design Patterns**](/design/): Fine-grained patterns, often associated
 with class or object _structure_, _behavior_ or _creation_. I concentrate
