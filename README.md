@@ -17,6 +17,33 @@ This work is licensed under a
 
 ## How to contribute
 
+* open an issue in our issue tracker
+* fork the repo, fix bugs and send a pull request
+
+
+## How to develop and maintain this site
+
+### With Docker
+
+1. Install docker
+2. For development, run
+```
+docker-compose up
+```
+
+3. A docker image will be built and the development-server will be started.
+
+4. In case you want to publish the site, terminate the development server
+by pressing Ctrl-C in your shell and run `docker-compose down`. Then start
+a production build of the site:
+```
+docker-compose -f docker-compose-prod.yml up
+```
+The complete site will be generated into the folder `zz_site`- you
+may ftp or rcp this to your production webserver.
+
+### With local installation
+
 1. Install [Jekyll](http://jekyllrb.com/)
 2. Checkout/fork this repository
 3. Open a shell in the root directory and execute the following commands:
@@ -26,7 +53,7 @@ bundle update
 ```
 
 4. Then you should be able to start a local Jekyll server to test your installation:
-``` 
+```
 bundle exec jekyll serve --config _config-localhost.yml
 ```
 
