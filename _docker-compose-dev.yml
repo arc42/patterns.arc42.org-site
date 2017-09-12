@@ -1,13 +1,15 @@
+# docker-compose definition for developing the site.
+#
 version: '2'
 
 services:
   jekyll:
     build: .
-    image: gernotstarke:patterns-jekyll
+    image: arc42:patterns-site
     command: jekyll serve --trace --host 0.0.0.0 --watch --incremental
     environment:
       - JEKYLL_ENV=development
-#      - PAGES_REPO_NWO=gernotstarke/esabuch.de-site
+#      - PAGES_REPO_NWO=arc42/pattern.arc42.org-site
     ports:
       - 4000:4000
     volumes:
