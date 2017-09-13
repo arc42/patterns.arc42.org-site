@@ -32,11 +32,11 @@ fi
 
 case "$choice" in
   d|D|dev|develop) echo "develop"
-                   echo "docker-compose up -f _docker-compose-dev.yml"
+                   "docker-compose --file _docker-compose-dev.yml up"
                    ;;
 
   b|B|build)       echo "build"
-                   echo "docker-compose up -f _docker-compose-prod.yml"
+                   "docker-compose --file _docker-compose-prod.yml up"
                    ;;
 
   # catchall: abort
