@@ -14,6 +14,8 @@ permalink: /home/
 {% assign nr_stability_patterns = (site.posts | where: "category", "stability") | size %}
 {% assign nr_resource_patterns = (site.posts | where: "category", "resource") | size %}
 {% assign nr_workflow_patterns = (site.posts | where: "category", "workflow") | size %}
+{% assign nr_resource_patterns = (site.posts | where: "category", "resource") | size %}
+{% assign nr_microservice_patterns = (site.posts | where: "category", "microservice") | size %}
 {% assign nr_design_patterns = (site.posts | where: "category", "design") | size %}
 
 ## Overview
@@ -34,6 +36,8 @@ All of these patterns have been extensively documented in (paper-based and onlin
 1. [**Stability and Robustness Patterns**](/stability/): {{ nr_stability_patterns }} patterns, e.g. Bulkhead, Timeout, Circuit-Breaker, Heartbeat, Handshake etc.
 1. [**Resource Management Patterns**](/resource-management/): {{ nr_resource_patterns }} patterns, TODO
 1. [**Workflow Patterns**](/workflow/): {{ nr_workflow_patterns }} patterns, TODO
+1. [**Security Patterns**](/security/): {{ nr_security_patterns }} patterns, TODO
+1. [**Microservice Patterns**](/microservice/): {{ nr_microservice_patterns }} patterns, TODO
 1. [**Design Patterns**](/design/): {{ nr_design_patterns  }} patterns, e.g. Proxy, Adapter, Facade, Registry, Command, Factory, Observer
 
 ## Keywords
