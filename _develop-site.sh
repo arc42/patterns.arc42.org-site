@@ -18,10 +18,13 @@ echo
 echo "${GREEN}(d)evelop ${RESET} starts a jekyll server on port 0.0.0.0:4000,"
 echo "which performs incremental builds and listens for file changes."
 echo
-echo "${RED}(b)uild ${RESET} builds the site with production configuration,"
-echo "into zz-site directory."
+echo "${GREEN}(b)build ${RESET} build the required docker image."
+echo
+echo "${RED}(p)production ${RESET} produces the site with production configuration,"
+echo "into ./zz-site directory."
 echo "=================================================="
 echo
+
 
 read -p "Enter your selection (default: develop, d) : " choice
 
@@ -31,13 +34,18 @@ if [[ -z $choice ]]; then
 fi
 
 case "$choice" in
+  b|B|build) echo "build Docker image"
+                     docker-compose --file _docker-compose-dev.yml build --force-rm
+                     ;;
+
   d|D|dev|develop) echo "develop"
-                   "docker-compose --file _docker-compose-dev.yml up"
+                   docker-compose --file _docker-compose-dev.yml up
                    ;;
 
-  b|B|build)       echo "build"
-                   "docker-compose --file _docker-compose-prod.yml up"
-                   ;;
+  p|P|production) echo "create production site"
+                  docker-compose --file _docker-compose-prod.yml up
+                  docker-compose --file _docker-compose-prod.yml down
+                  ;;
 
   # catchall: abort
   *)               echo "${RED} unknown option $choice ${RESET}, aborted."
