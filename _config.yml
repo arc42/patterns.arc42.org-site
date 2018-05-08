@@ -41,7 +41,7 @@ analytics:
 #
 # want (disqus) comments?
 #
-disqus: true
+disqus: false
 
 #
 # Icons

@@ -32,7 +32,7 @@ str_search: Search
 #
 # want (disqus) comments?
 #
-disqus: true
+disqus: false
 
 #
 # want subtle ads (on post-pages)
@@ -43,7 +43,7 @@ show-subtle-ads: true
 # Analytics
 analytics:
   google:
-    tracking_id : 
+    tracking_id :
 
 #
 # Icons
